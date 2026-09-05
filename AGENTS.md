@@ -1,5 +1,9 @@
 # Agent guidance
 
+Before Spec Kit planning or implementation, read
+`.specify/memory/project-guide.md` with the project constitution. It maps
+requirements to this repository's source, acceptance evidence, and validation.
+
 Read `.specify/memory/constitution.md` and inspect every referenced Klipper or Moonraker include before editing.
 
 - Treat pin assignments, motion limits, homing, probing, heaters, and sensors as hardware-safety boundaries.
