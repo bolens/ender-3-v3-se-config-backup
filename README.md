@@ -1,5 +1,7 @@
 # Ender-3 V3 SE configuration backup
 
+[Documentation](docs/README.md)
+
 Configuration and recovery history for this Cartesian printer. Review the active
 `printer.cfg` include chain and the producing firmware before using a backup.
 See [the delivery playbook](RELEASING.md) for review and recovery boundaries.
