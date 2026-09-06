@@ -4,7 +4,10 @@ Before Spec Kit planning or implementation, read
 `.specify/memory/project-guide.md` with the project constitution. It maps
 requirements to this repository's source, acceptance evidence, and validation.
 
-Read `.specify/memory/constitution.md` and inspect every referenced Klipper or Moonraker include before editing.
+Before changing printer configuration or macros, read `.specify/memory/constitution.md`
+and inspect the complete referenced Klipper or Moonraker include chain. For
+prose-only edits, read the affected documentation and tracked configuration needed
+to verify its claims. Use `RELEASING.md` for backup delivery and validation.
 
 - Treat pin assignments, motion limits, homing, probing, heaters, and sensors as hardware-safety boundaries.
 - Do not connect to, restart, flash, home, heat, or move the live printer without explicit authorization and a rollback plan.
