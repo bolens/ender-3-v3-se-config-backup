@@ -1,5 +1,7 @@
 # Backup delivery playbook
 
+[Documentation](docs/README.md)
+
 This repository is a continuously updated printer-configuration backup. It has
 no versioned releases; immutable Git commits are recovery points.
 

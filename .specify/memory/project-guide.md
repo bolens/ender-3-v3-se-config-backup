@@ -1,5 +1,7 @@
 # ender-3-v3-se-config-backup Spec Kit project guide
 
+[Documentation](../../docs/README.md)
+
 Configuration and recovery history for the Ender-3 V3 SE with Cartesian motion.
 
 Read this guide with `AGENTS.md` and `.specify/memory/constitution.md` before
