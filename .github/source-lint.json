@@ -2,10 +2,19 @@
   "markdown": [
     "README.md",
     "RELEASING.md",
-    "AGENTS.md"
+    "AGENTS.md",
+    "docs/development-environments.md",
+    "specs/002-development-environments/*.md"
   ],
   "exclude": [
     "GuppyScreen/*"
   ],
-  "notes": "Complements native repository checks. Managed Spec Kit files retain their dedicated integrity gate; imported snapshots and generated/native-checked surfaces are scoped separately."
+  "notes": "Complements native repository checks. Managed Spec Kit files retain their dedicated integrity gate; imported snapshots and generated/native-checked surfaces are scoped separately.",
+  "python": [
+    "scripts/development-container.py",
+    "tests/test_development_container.py"
+  ],
+  "shell": [
+    "scripts/check-development.sh"
+  ]
 }
