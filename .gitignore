@@ -1,0 +1,6 @@
+
+
+# Local tooling and runtime artifacts
+__pycache__/
+*.py[cod]
+.ruff_cache/
