@@ -1,5 +1,7 @@
 # Ender-3 V3 SE Configuration Constitution
 
+[Documentation](../../docs/README.md)
+
 ## Core Principles
 
 ### I. Hardware-Specific Source of Truth
