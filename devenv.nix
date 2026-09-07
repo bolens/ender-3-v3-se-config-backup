@@ -12,7 +12,8 @@ in
   process.manager.implementation = "overmind";
   packages = with pkgs; [
     bashInteractive coreutils findutils gawk git gnugrep gnumake gnused
-    diffutils python3 ruff shellcheck cacert jq actionlint zizmor markdownlint-cli2
+    diffutils (python3.withPackages (ps: with ps; [ numpy matplotlib scipy ]))
+    ruff shellcheck cacert jq actionlint zizmor markdownlint-cli2
   ];
   env.SSL_CERT_FILE = "${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt";
   scripts.repo-check.exec = "bash scripts/check-development.sh";

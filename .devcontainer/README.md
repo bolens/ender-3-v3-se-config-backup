@@ -7,8 +7,10 @@ packages. Setup installs dependencies from this checkout's lockfiles and runs
 `smoke.sh`. Rebuild the container after Dockerfile changes. Rerun
 `bash .devcontainer/post-create.sh` after changing dependency lockfiles.
 
-Includes Python, Ruff, ShellCheck, actionlint, zizmor and Markdown tooling for
-repository maintenance. This repository has no application runtime to start.
+Includes Python with NumPy, Matplotlib, SciPy and Pillow for the offline
+GuppyScreen plotting checks, plus Ruff, ShellCheck, actionlint, zizmor and Markdown
+tooling. The test suite uses synthetic logs; printer calibration requires
+separate hardware validation.
 
 Run from the workspace root:
 

@@ -17,3 +17,11 @@ retained upstream notices, and dependency or asset exceptions.
 
 See [the devcontainer guide](.devcontainer/README.md) for the repository toolchain,
 setup, checks and platform limits.
+
+## Recovery source distinctions
+
+`factory_printer.cfg` identifies an Ender-3 Pro and a different board, not a
+verified Ender-3 V3 SE factory restore. GuppyScreen includes imported CoreXY
+belt and K1 material macros. Their presence does not establish compatibility
+with this Cartesian printer. See the [legacy contract audit](specs/001-recovery-source-baseline/legacy-contracts.md)
+for source ownership and unresolved firmware dependencies.
