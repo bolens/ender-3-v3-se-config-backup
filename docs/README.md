@@ -15,9 +15,10 @@ Ender-3 V3 SE configuration and recovery ownership.
 ## Architecture
 
 [printer.cfg](../printer.cfg) and its includes define the active Cartesian printer configuration.
-[Factory configuration](../factory_printer.cfg), dated snapshots, and retained archives are recovery
-references. Trace the active include chain before selecting a macro or calibration file. K1 CoreXY
-settings are not interchangeable with this machine.
+The [factory-named snapshot](../factory_printer.cfg) identifies a different printer and board.
+It is not a verified Ender-3 V3 SE restore. The [recovery source audit](../specs/001-recovery-source-baseline/legacy-contracts.md)
+records this mismatch and imported CoreXY/K1 material. Trace the active include chain before
+selecting a macro or calibration file. K1 CoreXY settings are not interchangeable with this machine.
 
 ## Deployment and recovery
 
@@ -44,3 +45,4 @@ runtime proof. A topic without an implementation stays explicitly unimplemented.
 - [Development environments](development-environments.md)
 
 - [Editor setup](../.vscode/README.md)
+- [License scope and attribution](../THIRD_PARTY_NOTICES.md)
