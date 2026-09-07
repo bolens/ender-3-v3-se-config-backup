@@ -41,3 +41,11 @@ python3 scripts/development-container.py run apple -- bash scripts/check-develop
 The helper exports an OCI archive and uses `container image load`. Native ARM Macs target `aarch64-linux`; x86 Linux builds target `x86_64-linux`. [Building Linux images from macOS requires a Linux builder](https://devenv.sh/containers/). This workflow does not assume Apple container implements Docker Compose or Docker's daemon API.
 
 Apple execution is not verified by Linux tests. The environment validates source and tooling. Configuration compatibility depends on the Ender-3 V3 SE firmware and hardware. Follow [the backup delivery playbook](../RELEASING.md) for review and recovery.
+
+The Python environment includes NumPy, Matplotlib and SciPy. Native checks
+include file-preservation regressions and synthetic offline plotting scenarios.
+For completed captures, run
+`python3 GuppyScreen/scripts/graph_belts.py --offline -o belts.png a.csv b.csv`.
+This skips Linux process inspection. Finish acquisition before copying inputs.
+A successful numerical plot does not validate the imported CoreXY acquisition
+macro or physical calibration on this Cartesian printer.
