@@ -41,7 +41,8 @@ jobs:
               - '.agents/**'
               - '.specify/**'
               - 'docs/**'
-              - 'specs/002-development-environments/**'
+              - 'specs/**'
+              - 'GuppyScreen/scripts/**'
               - 'scripts/**'
               - 'tests/**'
 
